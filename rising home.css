@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=IBM+Plex+Serif&family=Abril+Fatface&family=Montserrat:wght@500;900&family=Poppins:wght@500;900&family=Playfair+Display:ital,wght@1,900&display=swap');
+@font-face {
+   font-family: "Couture"; 
+  src: url(https://dl.dropbox.com/s/uooxtl95ioyu2f9/couture-bld.otf);
+ format("truetype"); }
+/* latin-ext */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+}
+
+/* latin-ext */
+@font-face {
+  font-family: 'Karla';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/karla/v31/qkBIXvYC6trAT55ZBi1ueQVIjQTDypqaHUlKd7c.woff2) format('woff2');
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Karla';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/karla/v31/qkBIXvYC6trAT55ZBi1ueQVIjQTDypqaE0lK.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+#rising_home {
+  width: 720px;
+  height: auto;
+  margin: 25px 0 0;
+    
+}
+#rising_home b {
+  color: var(--accent);
+}
+#rising_home .basing {
+  width: 100%;
+  padding: 35px;
+  border: var(--border);
+box-sizing: border-box;
+}
+  #rising_home .bases {
+    width: 100%;
+   background: var(--background); 
+   box-sizing: border-box;
+  border: var(--border);
+  }
+#rising_home .title {
+  font: 900 40px/150% Playfair Display;
+  color: var(--color);
+  text-align: center;
+  padding: 10px;
+  box-sizing: border-box;
+}
+#rising_home .title:after {
+  content:'';
+  display: block;
+  margin: 25px auto;
+  width: 50%;
+  height: 5px;
+  background: var(--accent);
+  
+}
+#rising_home .post {
+  background: var(--background); 
+  font: 500 14px/235% Karla;
+  text-align: justify;
+  letter-spacing: .5px;
+  padding: 20px;
+  box-sizing: border-box;
+  color: var(--text);
+}
+#rising_home .postbase {
+    background: var(--background); 
+    width: 100%;
+  padding: 30px;
+  box-sizing: border-box;
+}
+#rising_home .post span {
+  background: var(--accent);
+  padding: 10px 25px;
+  font: 40px Abril Fatface;
+  text-transform: uppercase;
+  color: var(--color);
+  float: left;
+  margin: 5px 10px; 
+} 
+ #rising_home::after {
+  display: block;
+  content: "starlight";
+  padding: 5px 10px; 
+  font: 10px Consolas;
+  text-transform: uppercase;
+  opacity: .4;
+  font-weight: bold; 
+  color: #8c8c8c; }
