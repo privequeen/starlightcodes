@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=IBM+Plex+Serif&family=Abril+Fatface&family=Montserrat:wght@500;900&family=Poppins:wght@500;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=IBM+Plex+Serif&family=Abril+Fatface&family=Montserrat:wght@500;900&display=swap');
 @font-face {
    font-family: "Couture"; 
   src: url(https://dl.dropbox.com/s/uooxtl95ioyu2f9/couture-bld.otf);
@@ -21,98 +21,78 @@
 #wildside b {
   color: var(--accent);
 }
- #wildside .basing {
-   width: 100%;
-  padding: 35px;
-  border: var(--border);
-   
- } 
 #wildside .base {
   width: 100%;
-  background: var(--background);
-  box-sizing: border-box;
+  padding: 25px;
+    background: var(--background);
   border: var(--border);
-  
-}
-#wildside .head {
-  width: 100%;
-  height: 250px;
-  background: center/cover;
   box-sizing: border-box; 
   
-   
+}
+#wildside .heads {
+  width: 100%;
+  height: 130px;
+  padding: 15px;
+  background: var(--background);
+  box-sizing: border-box;
+   display: grid;
+   grid-template-columns: repeat(2, 9fr);
+
+ } 
+#wildside .foto {
+  width: 80px;
+  height: 80px;
+  background: center/cover;
+  margin-top: -3px;
+ margin-left: 60px;
+}
+#wildside .quote {
+  width: 450px;
+  font: 12px/134% IBM Plex Mono;
+  text-align: justify;
+ text-transform: lowercase;
+  color: var(--color);
+  margin-left: -150px;
+  box-sizing: border-box;
+  padding: 15px; 
+  margin-top: -3px;
+  
+  
+}
+#wildside .postbase {
+     background: var(--background); 
+    width: 100%;
+  padding: 30px;
+  box-sizing: border-box;
+  border: var(--border);
+  margin-top: 5px;
+
 }
 #wildside .post {
   background: var(--background); 
-  font: 500 12px/235% Montserrat;
+  font: 500 12px/230% Montserrat;
   text-align: justify;
   letter-spacing: .5px;
   padding: 20px;
   box-sizing: border-box;
   color: var(--text);
 }
-#wildside .postbase {
-    background: var(--background); 
-    width: 100%;
-  padding: 30px;
-  box-sizing: border-box;
-}
-#wildside .photo {
-  width: 85px;
-  height: 85px;
-  background: center/cover;
-  
-}
-#wildside .borda {
-  border: var(--border);
-  width: 85px;
-  height: 85px;
-  padding: 5px;
-  float: left; 
-  margin: 5px 15px 10px 10px;  
 
-}
-#wildside .title {
-  font: 900 45px/150% Poppins; 
-  font-style: bold;
+#wildside .notes b {
+
+  font: 500 12px/235%  Montserrat;
+
   color: var(--color);
- text-align: center; 
-  padding: 5px;
-  box-sizing: border-box;
-  text-transform: lowercase;
-  width: fit-content;
-  border-bottom: 1px solid #fff;
-  position: relative;
-  top: 65px;
-  
+
+  text-transform: uppercase;
+
+  text-align: center;
+
+ background: #0000001c;
+
+  padding: 15px; 
 }
-#wildside .lyric {
-  width: 85%;
-   font: 12px/150% IBM Plex Mono;
-  color: var(--color);
-  padding: 5px; 
-  margin-left: 10px;
-  position: relative;
-  top: 70px;
-  text-transform: lowercase; 
-}
-#wildside .notas {
-  font: 500 14px/120% Poppins;
-  color: var(--accent);
-  text-transform: uppercase; 
-  font-weight: bold;
-  text-align: right;
-  padding: 10px;
-  box-sizing: border-box;
-}
-#wildside .data {
-  font: 500 13px/120% Poppins;
-  color: var(--text);
-  text-align: right;
-  padding: 10px;
-  
-  
-}
+
 #wildside:after {
   display: block;
   content: "starlight";
