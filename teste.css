@@ -1,0 +1,122 @@
+/********** CREDITAÇÃO 
+feito exclusivamente para o god's ichor com a estruturação de partes do código vindo de lyurcodes nos códigos de ficha do wandless para o nome e dados do personagem e atributos baseado na parte de atributos da ficha de personagem do sirion
+*********************/
+
+:root {
+  --background: #fefefe;
+  --border: 1px solid #1a1a1a;
+}
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=IBM+Plex+Serif&family=Abril+Fatface&family=Montserrat:wght@500;900&family=Poppins:wght@500;900&display=swap');
+@font-face {
+   font-family: "Couture"; 
+  src: url(https://dl.dropbox.com/s/uooxtl95ioyu2f9/couture-bld.otf);
+ format("truetype"); }
+/* latin-ext */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Montserrat Regular'), local('Montserrat-Regular'), url(https://fonts.gstatic.com/s/montserrat/v14/JTUSjIg1_i6t8kCHKm459Wdhyzbi.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+    font-weight: 400;
+}
+ 
+.fichabase {
+ width: calc(858px - 2px);
+  margin: 0 auto;
+  border: var(--border);
+box-sizing: border-box;    
+}
+.fichabase b {
+  color: var(--accent);
+}
+.nome {
+  border-bottom: var(--border);
+  padding: 30px;
+  color: var(--grupo);
+  font: 900 40px Enchanted Land;
+  text-transform: normal;
+  
+} 
+.atributos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-area: stats;
+  background: var(--background);
+  padding: 20px;
+  border-top: var(--border);
+  margin-top: 9px;
+  box-sizing: border-box;
+}
+
+span.pontos {
+  flex-direction: column;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 10px;
+  box-sizing: border-box;
+}
+span.pontos b {
+  color: var(--grupo)
+}
+span.pontos i {
+ font: 13px Arial;
+  
+}
+.foto {
+  padding: 10px;
+  outline: 1px solid var(--grupo);
+  outline-offset: 0px;
+  width: 250px;
+  flex-shrink: 0;
+  height: 400px;
+
+}
+.foto img {
+  width: 250px;
+  height: 400px;
+  object-fit: cover;
+}
+.boxinfo {
+  display: flex;
+    gap: 10px;
+  box-sizing: border-box;
+  padding: 15px;
+}
+.dados {
+  width: calc(100% - 250px);
+  padding: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  margin-left: 5px;
+}
+.dados info {
+  background: var(--backgroubd);
+ border: 1px solid #ff0000;
+  height: 58px;
+  width: calc(50% - 10px);
+  padding: 5px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+  font: 11px lato;
+    font-weight: normal;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--corfont);
+  box-sizing: border-box;
+ 
+
+}  
