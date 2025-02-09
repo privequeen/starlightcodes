@@ -36,8 +36,8 @@ feito exclusivamente para o god's ichor com a estruturação de partes do códig
   padding: 10px;
 box-sizing: border-box;    
 }
-.fichabase b {
-  color: var(--accent);
+.extra b {
+  color: var(--grupo);
 }
  
 #extra .texto {
