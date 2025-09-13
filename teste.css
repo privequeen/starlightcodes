@@ -39,13 +39,13 @@
   width: auto;
   padding: 25px;
   background: var(--secondbg);
-  border: var(--bording);
+  border: var(--border2);
 }
 #aqui .border {
   width: auto;
   box-sizing: border-box;
   background: var(--background);
-  border: var(--bording);
+  border: var(--border2);
   padding: 10px;
 }
 #aqui .pic {
@@ -115,8 +115,8 @@ width: auto;
 }
 #aqui .notas { 
   box-sizing: border-box;
-    border-top: var(--bording);
-      border-bottom: var(--bording);
+    border-top: var(--border2);
+      border-bottom: var(--border2);
   width: 100%;
   padding: 15px;
   
@@ -130,4 +130,5 @@ width: auto;
   text-transform: uppercase;
   opacity: .4;
   font-weight: bold; 
+
   color: #8c8c8c; }
